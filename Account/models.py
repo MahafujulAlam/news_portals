@@ -53,7 +53,6 @@ class Registration(AbstractBaseUser):
         max_length=255,
         unique=True,
     )
-    role_id = models.ForeignKey(Role, on_delete=models.CASCADE)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
 

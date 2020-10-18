@@ -1,0 +1,30 @@
+{% load static%}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            NewsToday
+        </title>
+    </head>
+    <body>s
+        <h1>news today</h1>
+        <ul>
+            {% for i in data %}
+            <li>
+                <h1> {{i.title}} </h1> <br>
+                <img src="{{i.image.url}}" width="900" height="500"> <br>
+                
+                <!-- {{url}}{{i.image}} <br> --> <br><br>
+                {{i.description}}
+            </li>
+            {% endfor %}
+
+        </ul>
+    </body>
+
+
+</html>
+{% endblock %}
