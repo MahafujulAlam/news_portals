@@ -25,7 +25,7 @@ SECRET_KEY = 'bql+imnce$r(zq34^m-52_u!)62m(*p0_6u(ffr5hwz#pc_-$n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','newstoday1.herokuapp.com']
 
 
 # Application definition
