@@ -16,6 +16,7 @@ class RegisterSerializer(serializers.ModelSerializer):
                 last_name = validated_data['last_name'],
                 mobile_number=validated_data['mobile_number'],
                 email=validated_data['email'],
+                role_id=validated_data['role_id']
 
             )
 
